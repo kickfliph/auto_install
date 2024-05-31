@@ -6,8 +6,8 @@ Thanks to Brian White for his excellent software, which will allow us to enjoy o
 - 1 Make sure you have already downloaded and unzipped the PIDtoolbox for Linux folder
 - 2 Navigate into it and move to the installer folder
 - 3 Copy and paste the file auto_install_mtlb.sh
-- 4 Change it to be executable by typing this in the terminal `$chmod 755 auto_install_mtlb.sh` and press enter
-- 5 Typing in the terminal `$./auto_install_mtlb.sh and executing it by press enter. Once the process finishes with no errors your computer has successfully installed Matlab Runtime in folder `/usr/local/MATLAB/MATLAB_Runtime/R2022B/`.
+- 4 Change it to be executable by typing this in the terminal `chmod 755 auto_install_mtlb.sh` and press enter
+- 5 Typing in the terminal `./auto_install_mtlb.sh` and executing it by press enter. Once the process finishes with no errors your computer has successfully installed Matlab Runtime in folder `/usr/local/MATLAB/MATLAB_Runtime/R2022B/`.
 - 6 Move to the main folder by typing `cd ../main` and press enter
 - 7 Now let's run PIDtoolbox by typing `./run_PIDtoolbox.sh "/usr/local/MATLAB/MATLAB_Runtime/R2022B/"`
       - 7.1 `./run_PIDtoolbox.sh` is the executable file 
