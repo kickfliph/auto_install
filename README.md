@@ -3,7 +3,7 @@ Bash script for PIDtoolbox installation on Linux
 
 Thanks to Brian White for his excellent software, which will allow us to enjoy our hobby. This software is the best one for tunning your Quadcopters https://pidtoolbox.com and now is working on Linux. By following Brian's documentation for the installation he explained 2 installation methods the first method is `./MyAppInstaller_web.install -agreeToLicense yes` so I wrote a simple script to make the installation process easier for the second method. 
 
-- 1 Make sure you have already downloaded and unzipped the PIDtoolbox for Linux
+- 1 Make sure you have already downloaded and unzipped the PIDtoolbox for Linux folder
 - 2 Navigate into it and move to the installer folder
 - 3 Copy and paste the file auto_install_mtlb.sh
 - 4 Change it to be executable by typing this in the terminal `$chmod 755 auto_install_mtlb.sh` and press enter
